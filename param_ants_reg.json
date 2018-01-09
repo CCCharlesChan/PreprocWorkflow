@@ -1,0 +1,112 @@
+{
+    "dimension": 3,
+    "fixed_image": [
+        "/oak/stanford/groups/ljinhy/sandbox/people/charles/final_work/data/rodent/Mouse_BOLD/M02/T2.nii.gz"
+    ],
+    "initial_moving_transform_com": true,
+    "metric": [
+        "MeanSquares",
+        "Mattes"
+    ],
+    "metric_weight": [
+        1.0,
+        1.0
+    ],
+    "radius_or_number_of_bins": [
+        16,
+        32
+    ],
+    "sampling_strategy": [
+        "Random",
+        null
+    ],
+    "sampling_percentage": [
+        0.3,
+        0.3
+    ],
+    "use_estimate_learning_rate_once": [
+        true,
+        true
+    ],
+    "use_histogram_matching": [
+        false,
+        false
+    ],
+    "interpolation": "Linear",
+    "write_composite_transform": true,
+    "collapse_output_transforms": true,
+    "initialize_transforms_per_stage": false,
+    "transforms": [
+        "Affine",
+        "SyN"
+    ],
+    "transform_parameters": [
+        [
+            1.0
+        ],
+        [
+            1.0,
+            3.0,
+            5.0
+        ]
+    ],
+    "number_of_iterations": [
+        [
+            2000,
+            1000,
+            500
+        ],
+        [
+            100,
+            100,
+            100
+        ]
+    ],
+    "smoothing_sigmas": [
+        [
+            4.0,
+            2.0,
+            1.0
+        ],
+        [
+            4.0,
+            2.0,
+            1.0
+        ]
+    ],
+    "sigma_units": [
+        "vox",
+        "vox"
+    ],
+    "shrink_factors": [
+        [
+            3,
+            2,
+            1
+        ],
+        [
+            3,
+            2,
+            1
+        ]
+    ],
+    "convergence_threshold": [
+        1e-11,
+        1e-08
+    ],
+    "convergence_window_size": [
+        20,
+        20
+    ],
+    "output_transform_prefix": "output_",
+    "output_warped_image": "/oak/stanford/groups/ljinhy/sandbox/people/charles/final_work/output/ants_reg_out.nii.gz",
+    "winsorize_upper_quantile": 0.995,
+    "winsorize_lower_quantile": 0.005,
+    "num_threads": 4,
+    "args": "--float",
+    "environ": {
+        "NSLOTS": "4"
+    },
+    "terminal_output": "stream",
+    "ignore_exception": false
+}

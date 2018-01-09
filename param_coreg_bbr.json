@@ -1,0 +1,11 @@
+{
+    "cost": "bbr",
+    "dof": 6,
+    "schedule": "/share/software/user/open/fsl/5.0.10/etc/flirtsch/bbr.sch",
+    "output_type": "NIFTI_GZ",
+    "environ": {
+        "FSLOUTPUTTYPE": "NIFTI_GZ"
+    },
+    "terminal_output": "stream",
+    "ignore_exception": false
+}

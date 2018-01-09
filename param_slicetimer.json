@@ -1,0 +1,11 @@
+{
+    "index_dir": false,
+    "time_repetition": 2.5,
+    "interleaved": true,
+    "output_type": "NIFTI_GZ",
+    "environ": {
+        "FSLOUTPUTTYPE": "NIFTI_GZ"
+    },
+    "terminal_output": "stream",
+    "ignore_exception": false
+}

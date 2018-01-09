@@ -1,0 +1,10 @@
+{
+    "mean_vol": true,
+    "save_plots": true,
+    "output_type": "NIFTI",
+    "environ": {
+        "FSLOUTPUTTYPE": "NIFTI"
+    },
+    "terminal_output": "stream",
+    "ignore_exception": false
+}
